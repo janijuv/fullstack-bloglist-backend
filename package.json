@@ -1,0 +1,28 @@
+{
+  "name": "fullstack-bloglist-backend",
+  "version": "1.0.0",
+  "description": "fullstackopen part4, bloglist",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janijuv/fullstack-bloglist-backend.git"
+  },
+  "author": "Jani Juvonen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janijuv/fullstack-bloglist-backend/issues"
+  },
+  "homepage": "https://github.com/janijuv/fullstack-bloglist-backend#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.14.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
