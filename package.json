@@ -4,8 +4,10 @@
   "description": "fullstackopen part4, bloglist",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js" 
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "node --test",
+    "lint": "eslint ." 
   },
   "repository": {
     "type": "git",
